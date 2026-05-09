@@ -1,6 +1,6 @@
 # Defuddle for KOReader
 
-Defuddle is a small local reading setup for a jailbroken Kindle running KOReader. It lets KOReader open web articles through a server on your Wi-Fi network, where a full browser renders the page and Defuddle extracts a clean article view before the Kindle downloads it.
+Defuddle for KOReader is a small local reading setup for a jailbroken Kindle running [KOReader](https://github.com/koreader/koreader). It lets KOReader open web articles through a server on your Wi-Fi network, where a full browser renders the page and [defuddle](https://github.com/kepano/defuddle) extracts a clean article view before the Kindle downloads it.
 
 This is intended for personal use on a trusted home network.
 
@@ -97,3 +97,10 @@ Use `PORT` to change the server port:
 ```sh
 PORT=8790 HOST=0.0.0.0 npm run dev
 ```
+
+## Credits
+
+This project is built around two upstream projects:
+
+- [KOReader](https://github.com/koreader/koreader), the document reader and plugin environment used on the Kindle.
+- [defuddle](https://github.com/kepano/defuddle), the article extraction library used by the local server.

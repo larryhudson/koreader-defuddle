@@ -43,7 +43,7 @@ local Defuddle = WidgetContainer:extend{
     name = "defuddle",
 
     -- Change this to your Mac/server LAN address before copying to the Kindle.
-    proxy_base_url = "http://192.168.1.100:8787",
+    proxy_base_url = "http://192.168.68.54:8787",
 
     output_dir_name = "defuddle",
     output_file_name = "current.html",
