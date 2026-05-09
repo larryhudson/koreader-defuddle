@@ -1,0 +1,24 @@
+{
+  "name": "defuddle-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsc --noEmit",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "defuddle": "^0.13.0",
+    "express": "^5.1.0",
+    "jsdom": "^27.2.0",
+    "playwright": "^1.57.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/jsdom": "^28.0.1",
+    "@types/node": "^24.10.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

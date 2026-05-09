@@ -1,0 +1,9 @@
+.DS_Store
+*.log
+
+defuddle-server/node_modules/
+defuddle-server/data/
+
+# Local research clones used while building the prototype.
+kindlemodding.github.io/
+koreader-src/
